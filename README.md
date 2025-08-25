@@ -2,14 +2,12 @@
 # 🔗 End-to-End NER and Relation Extraction System
 This project provides a complete system to train and apply Named Entity Recognition (NER) and Relation Extraction (RE) models. It uses BERT-based models from the HuggingFace Transformers library to first identify entities in text and then extract the relationships between them.
 
-### Tech Stack
-
+## Tech Stack
 *   Python, PyTorch, HuggingFace Transformers
 *   `seqeval` for NER evaluation
 *   Pandas, Scikit-learn
 
-### Example Input / Output
-
+## Example Input / Output
 **Input (raw text):**
 `"Steve Jobs was the co-founder of Apple Inc."`
 
@@ -18,7 +16,7 @@ This project provides a complete system to train and apply Named Entity Recognit
 *   **RE Step:** `(Head: Steve Jobs, Relation: found, Tail: Apple Inc.)`
 
 
-### How to Run
+## How to Run
 
 **1. Setup Environment**
 
